@@ -1,0 +1,36 @@
+.elements{
+    position: relative;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+textarea{
+    height: 200px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.form-control{
+    resize:none;
+    color:black;
+}
+.vert{
+    background-color: greenyellow;
+}
+.bleu{
+    background-color: deepskyblue;
+}
+.rouge{
+    background-color: indianred;
+}
+.rose{
+    background-color: lightpink;
+}
+.blanc{
+    background-color: white;
+}
+
+.categoryGroup h1{
+    display: inline-block;
+}
