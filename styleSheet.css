@@ -1,14 +1,16 @@
 .elements{
     position: relative;
     float: left;
-    display: table-cell;
-    vertical-align: middle;
+    margin:auto;
+    display:inline-block !important;
+    vertical-align: middle !important;
 }
 
 textarea{
     height: 200px;
-    display: table-cell;
-    vertical-align: middle;
+    min-width: 10px;
+    padding-right:0px;
+
 }
 
 .form-control{

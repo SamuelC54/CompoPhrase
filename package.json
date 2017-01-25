@@ -1,0 +1,26 @@
+{
+  "name": "compo-phrase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jquery.ns-autogrow.js",
+  "dependencies": {
+    "lite-server": "^2.2.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelTSO/CompoPhrase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelTSO/CompoPhrase/issues"
+  },
+  "homepage": "https://github.com/SamuelTSO/CompoPhrase#readme"
+}

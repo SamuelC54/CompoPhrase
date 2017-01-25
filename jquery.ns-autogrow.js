@@ -47,7 +47,7 @@
                 }
                 $e.data('autogrow-enabled');
                 minHeight = $e.height();
-                minWidth = $e.width();
+                minWidth = 30;
                 heightPadding = $e.css('lineHeight') * 1 || 0;
                 $e.hasVerticalScrollBar = function() {
                     return $e[0].clientHeight < $e[0].scrollHeight;
@@ -59,7 +59,7 @@
                     top: options.debugy,
                     left: options.debugx,
                     'max-width': $e.css('max-width'),
-                    'padding': $e.css('padding'),
+                    'padding': "0px",
                     fontSize: $e.css('fontSize'),
                     fontFamily: $e.css('fontFamily'),
                     fontWeight: $e.css('fontWeight'),
@@ -73,7 +73,7 @@
                     });
                 } else {
                     fontSize = $e.css('font-size');
-                    $shadow.css('padding-right', '+=' + fontSize);
+                    $shadow.css('padding-right', '+=' + 10);
                     $shadow.normalPaddingRight = $shadow.css('padding-right');
                 }
                 update = (function(_this) {
